@@ -17,18 +17,63 @@
          }
     }
     #about{
+        background-image: url(https://1.bp.blogspot.com/-Qig5cgcTHno/X_M_Vq-nSBI/AAAAAAAACqE/R-33SFjmj_8FmCBmnQtE_iZwDTAhC6e4QCLcBGAsYHQ/s0/About-Us.png);
+       
         .about-title{
             h3{
-                font-size: 40px;
+                font-size: 35px;
             }
         }
     }
+    #big-box{
+        .text-box{
+            p{
+                font-size: 15px;
+            }
+            h1{
+                font-size: 27px;
+            }
+        }
+        .text-box2{
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+    #second-box{
+        .text-box3{
+            p{
+                font-size: 15px;
+            }
+            h1{
+                font-size: 27px;
+            }
+
+        }
+    }
+    #comments{
+        .comment-text{
+            h1{
+                font-size: 27px;
+            }
+        }
+    }
+  
    
  
 }
 
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {
+    #about{
+      
+       
+        .about-title{
+            h3{
+                font-size: 35px;
+            }
+        }
+    }
     #change{
         .content2{
             h3{
@@ -45,6 +90,7 @@
         }
     }
     #footer{
+       
         .footer2{
             display: flex;
             align-items: center;
@@ -85,6 +131,7 @@
 // Large devices (desktops, 992px and up)
 @media (max-width: 992px) {
     #change{
+      
         .content2{
             h3{
                 width: 100%;
